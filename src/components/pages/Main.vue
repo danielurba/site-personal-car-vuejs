@@ -3,7 +3,8 @@
     <div class="welcome">
       <img src="../../assets/img/pintura-automotiva.jpg" alt="Pintura" height="300" width="100%" />
       <div class="welcome-home">
-        <h1 class="text-dark">BEM VINDO AO SITE DA PERSONAL CAR</h1>
+        <h1 class="text-dark">Auto Chapeação Personal Car</h1>
+        <h3 class="text-dark">Cascavel PR</h3>
         <p>
           Personal Car e uma empresa de estética automotiva, nossos serviços são polimentos,
           espelhamentos, pinturas, retoques, martelinho de ouro entre outros. 
@@ -211,8 +212,13 @@ export default {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .main h1, h3 {
+    font-size: 1.1rem;
+  }
   .welcome-home p {
     font-size: 0.9rem;
+    text-align: center;
   }
   .info-home {
     flex-wrap: wrap;
