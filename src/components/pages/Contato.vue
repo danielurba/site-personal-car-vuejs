@@ -1,12 +1,5 @@
 <template>
     <div class="contato">
-        <aside class="rota">
-            <h2><strong>CONTATO</strong></h2>
-            <span>
-                <a href="/">Home</a>
-                <a href="/contacts">Contatos</a>
-            </span>
-        </aside>
         <div>
             <div class="infos">
                 <i class="fa fa-phone"></i> (45)9-9953-5458

@@ -1,12 +1,5 @@
 <template>
     <div class="info">
-        <div class="rota">
-            <h2><strong>QUEM SOMOS</strong></h2>
-            <span>
-                <a href="/">Home</a>
-                <a href="/info">Quem Somos</a>
-            </span>
-        </div>
         <p>
             Somos uma empresa de estética automotiva, que esta com mais de 10 anos de experiências.
             Sempre mantendo a satisfação do cliente e fazendo que seu veículo fique sempre brilhando

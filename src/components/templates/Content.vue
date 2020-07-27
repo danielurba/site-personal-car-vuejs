@@ -37,22 +37,6 @@ export default {
         border-radius: 50px;
     }
 
-    .rota  {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 20px;
-        background: linear-gradient(90deg, rgba(157,157,157,1) 0%, rgba(232,226,226,1) 50%, rgba(157,157,157,1) 100%);
-    }
-
-    .rota a {
-        text-decoration: none;
-        color: #000;
-        font-size: 1.2rem;
-        padding: 0px 15px;
-    }
-
     @media (max-width: 640px) {
         .botao {
             font-size: 1rem;
@@ -60,23 +44,6 @@ export default {
 
         .whatstoggle {
             right: 10vw;
-        }
-
-        .rota {
-            display: flex;
-            flex-direction: column;
-            font-size: 0.8rem;
-        }
-
-        .rota a {
-            font-size: 0.8rem;
-            padding: 0px 4px;
-        }
-
-        .rota h2 {
-            font-size: 1rem;
-            margin: 0;
-            padding-bottom: 20px;
         }
     }
 </style>

@@ -1,12 +1,5 @@
 <template>
     <div class="services">
-        <aside class="rota">
-            <h2><strong>SERVIÇOS</strong></h2>
-            <span>
-                <a href="/">Home</a>
-                <a href="/services">Serviços</a>
-            </span>
-        </aside>
         <div>
             <h2><strong>Polimentos e Espelhamentos</strong></h2>
             <h3>Polimento(simples)</h3>
@@ -82,6 +75,22 @@ export default {
         background-color: #eee;
     }
 
+    .rota  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        background: linear-gradient(90deg, rgba(157,157,157,1) 0%, rgba(232,226,226,1) 50%, rgba(157,157,157,1) 100%);
+    }
+
+    .rota a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+        padding: 0px 15px;
+    }
+
     @media (max-width: 640px) {
         .services {
             align-items: center;
@@ -90,6 +99,23 @@ export default {
         .services > h2 {
             font-size: 1.4rem;
             text-align: center;
+        }
+
+        .rota {
+            display: flex;
+            flex-direction: column;
+            font-size: 0.8rem;
+        }
+
+        .rota a {
+            font-size: 0.8rem;
+            padding: 0px 4px;
+        }
+
+        .rota h2 {
+            font-size: 1rem;
+            margin: 0;
+            padding-bottom: 20px;
         }
     }
 </style>

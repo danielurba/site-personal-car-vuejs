@@ -1,17 +1,5 @@
 <template>
   <div class="poli">
-    <div class="rota">
-      <h2>
-        <strong>POLIMENTOS</strong>
-      </h2>
-      <span>
-        <a href="/">Home</a>
-        <a href="/martelinho">Martelinho</a>
-        <a href="/polimentos">Polimentos</a>
-        <a href="/pinturas">Pinturas</a>
-        <a href="/retoques">Retoques</a>
-      </span>
-    </div>
     <div class="mt-2">
       <img src="@/assets/img/polimento2.jpg" alt="Polimento" width="300" height="225" />
       <span>

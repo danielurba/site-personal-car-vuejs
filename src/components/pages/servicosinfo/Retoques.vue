@@ -1,22 +1,11 @@
 <template>
     <div class="retoque">
-      <div class="rota">
-            <h2><strong>RETOQUES</strong></h2>
-            <span>
-                <a href="/">Home</a>
-                <a href="/martelinho">Martelinho</a>
-                <a href="/polimentos">Polimento</a>
-                <a href="/pinturas">Pinturas</a>
-                <a href="/retoques">Retoques</a>
-            </span>
-        </div>
     <div>
       <img
         src="@/assets/img/retoque.jpg"
         alt="Retoque"
         width="300"
         height="225"
-        sizes="(max-width: 209px) 100vw, 209px"
       />
       <span>
         <p>
